@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             "auto_nav = navigation.auto_nav:main",
-            "coverage = navigation.coverage:main"
+            "coverage = navigation.coverage:main",
+            'object_detector = navigation.object_detector:main'
         ],
     },
 )
